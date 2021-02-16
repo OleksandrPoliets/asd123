@@ -18,6 +18,6 @@ app.get("*", (req, res) => {
 
 socketHandler(io);
 
-httpServer.listen(PORT, () => {
+httpServer.listen(process.env.port, () => {
   console.log(`Listen server on port ${PORT}`);
 });
