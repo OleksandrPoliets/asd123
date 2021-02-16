@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer type="module" src="/javascript/game.mjs"></script>
+    <title>Game</title>
+</head>
+
+<body>
+<div id="root">
+    <div id="rooms-page" class="full-screen">
+        <h1>Join Room or create a New</h1>
+        <button class="create-room-btn" id="create-room">Create Room</button>
+    </div>
+
+    <div id="game-page" class="full-screen display-none">
+<!--        <div class="game-window">-->
+<!--            <div class="info-wrap">-->
+<!--                <h2>Room name</h2>-->
+<!--                <button class="back-to-rooms" id="back-to-rooms">Back to rooms</button>-->
+
+<!--                <div class="user">-->
+<!--                    <div class="users-info-wrap">-->
+<!--                        <div class="ready red"></div>-->
+<!--                        <span>UserName</span>-->
+<!--                    </div>-->
+<!--                    <div class="user-progres-wrap">-->
+<!--                        <div id="user1"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="user">-->
+<!--                    <div class="users-info-wrap">-->
+<!--                        <div class="ready red"></div>-->
+<!--                        <span>UserName</span>-->
+<!--                    </div>-->
+<!--                    <div class="user-progres-wrap">-->
+<!--                        <div id="user2"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="user">-->
+<!--                    <div class="users-info-wrap">-->
+<!--                        <div class="ready red"></div>-->
+<!--                        <span>UserName</span>-->
+<!--                    </div>-->
+<!--                    <div class="user-progres-wrap">-->
+<!--                        <div id="user3"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+
+<!--            <div class="text-wrap">-->
+<!--                <div class="game-info">-->
+<!--                    <span id="wrong-leters">Wrong</span>-->
+<!--                    <span id="type-speed">Speed</span>-->
+<!--                    <span id="gmae-timer">Timer</span>-->
+<!--                </div>-->
+<!--                <p class="game-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dicta dolor vero!</p>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  line-height: normal;
+  color: var(--main-font-color);
+}
+
+.full-screen {
+  height: 100vh;
+  width: 100%;
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.game-window{
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  grid-gap: 20px;
+}
+
+.info-wrap{
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-wrap{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black
+}
+
+.users-info-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.ready{
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.green{
+  background: green;
+}
+
+.red{
+  background: red;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-progres-wrap{
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.game-info{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-text{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ready-btn{
+  padding: 10px 20px;
+  background: #57805d;
+  margin: 0 auto;
+}
+
+.ready-btn:hover{
+  background: #085e80;
+}
+
+.timer{text-align: center;
+  width: 100%;
+  font-size: 5rem;}
+
+.rooms-wrap{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 250px;
+  min-height: 250px;
+  border: 1px solid black;
+}
+
+.cars-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.back-btn{
+  background-color: #f78b8b;
+  padding: 10px;
+  width: 48%;
+}
+
+.rooms-card-user-count{
+  width: 100%;
+  text-align: start;
+}
+
+.join-btn{
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background: #e2d949;
+}
+
+.join-btn:hover{
+  background: #3ecce2;
+}
+
+.create-room-btn{
+  margin: 20px 0;
+  background-color: #dfedf9;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  outline: none;
+  background-color: var(--white);
+  border: 1px solid var(--input-border-color);
+}
+
+input::placeholder {
+  color: var(--input-placeholder-color);
+}
+
+:root {
+  --main-font-color: #333;
+  --main-button-background-color: lightgrey;
+  --main-button-border-color: #999;
+  --input-border-color: #999;
+  --input-placeholder-color: #888;
+  --white: #fff;
+}
